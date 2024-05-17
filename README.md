@@ -1,0 +1,2 @@
+# Фольклор 2.0. Веб-версия
+![Static Badge](https://img.shields.io/badge/main_language-Python?logo=python&logoSize=auto&labelColor=yellow&color=gray) ![GitHub language count](https://img.shields.io/github/languages/count/littleweirdo410/folklore_2.0_web) ![GitHub License](https://img.shields.io/github/license/littleweirdo410/folklore_2.0_web) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fmoscowfolklore.ru%2F)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/littleweirdo410/folklore_2.0_web)
