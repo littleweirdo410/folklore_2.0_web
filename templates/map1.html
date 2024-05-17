@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8c00ee75b9b04f6b8cf2b5434d477a50 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8c00ee75b9b04f6b8cf2b5434d477a50" ></div>
+        
+</body>
+<script>    
+    
+            var map_8c00ee75b9b04f6b8cf2b5434d477a50 = L.map(
+                "map_8c00ee75b9b04f6b8cf2b5434d477a50",
+                {
+                    center: [55.754099333918056, 37.62077354050015],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0599f7fb3a0245d99e4ba522d9710abe = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8c00ee75b9b04f6b8cf2b5434d477a50);
+        
+    
+            var marker_cluster_c272accd505a46138a2b39b88dc11476 = L.markerClusterGroup(
+                {}
+            );
+            map_8c00ee75b9b04f6b8cf2b5434d477a50.addLayer(marker_cluster_c272accd505a46138a2b39b88dc11476);
+        
+    
+            var marker_6d2a3102cf71452cb52b7396eb27de76 = L.marker(
+                [55.756202, 37.616134],
+                {}
+            ).addTo(marker_cluster_c272accd505a46138a2b39b88dc11476);
+        
+    
+            var icon_4728c731605a4eb4b6661a3dadc6bb73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6d2a3102cf71452cb52b7396eb27de76.setIcon(icon_4728c731605a4eb4b6661a3dadc6bb73);
+        
+    
+            marker_6d2a3102cf71452cb52b7396eb27de76.bindTooltip(
+                `<div>
+                     Центральный административный округ, Тверской район, Манежная площадь, 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5255f0111d9141ed876910d2a24fdc5b = L.marker(
+                [55.757119, 37.61947],
+                {}
+            ).addTo(marker_cluster_c272accd505a46138a2b39b88dc11476);
+        
+    
+            var icon_e1dd9d41271a4085889861610a976f68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5255f0111d9141ed876910d2a24fdc5b.setIcon(icon_e1dd9d41271a4085889861610a976f68);
+        
+    
+            marker_5255f0111d9141ed876910d2a24fdc5b.bindTooltip(
+                `<div>
+                     Центральный административный округ, Тверской район, Площадь Революции
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_924f55068d0f46bfa4a4f1ecf551b8fe = L.marker(
+                [55.756538, 37.618113],
+                {}
+            ).addTo(marker_cluster_c272accd505a46138a2b39b88dc11476);
+        
+    
+            var icon_680c720cd8b8482499765c55632b8c49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_924f55068d0f46bfa4a4f1ecf551b8fe.setIcon(icon_680c720cd8b8482499765c55632b8c49);
+        
+    
+            marker_924f55068d0f46bfa4a4f1ecf551b8fe.bindTooltip(
+                `<div>
+                     Центральный административный округ, Тверской район, Переход от Манежной площади к Площади Революции
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ae43267a2864689a904a373e1f17298 = L.marker(
+                [55.761738, 37.609879],
+                {}
+            ).addTo(marker_cluster_c272accd505a46138a2b39b88dc11476);
+        
+    
+            var icon_ef5c42e0cc9e42b7bfcfc930a811a7f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0ae43267a2864689a904a373e1f17298.setIcon(icon_ef5c42e0cc9e42b7bfcfc930a811a7f9);
+        
+    
+            marker_0ae43267a2864689a904a373e1f17298.bindTooltip(
+                `<div>
+                     Центральный административный округ, Тверской район, Тверская площадь
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3ec4d8e0a3f4725beddfa73d2de9624 = L.marker(
+                [55.765519754264, 37.605794794085],
+                {}
+            ).addTo(marker_cluster_c272accd505a46138a2b39b88dc11476);
+        
+    
+            var icon_bb245ac9a1d24c01956f9b707d29306b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e3ec4d8e0a3f4725beddfa73d2de9624.setIcon(icon_bb245ac9a1d24c01956f9b707d29306b);
+        
+    
+            marker_e3ec4d8e0a3f4725beddfa73d2de9624.bindTooltip(
+                `<div>
+                     Центральный административный округ, Тверской район, Пушкинская площадь
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae9842d1dce644179a376a4e0788a8ac = L.marker(
+                [55.745832564616, 37.676226160706],
+                {}
+            ).addTo(marker_cluster_c272accd505a46138a2b39b88dc11476);
+        
+    
+            var icon_b1ba8dfe6c034281952c3945b3310b66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ae9842d1dce644179a376a4e0788a8ac.setIcon(icon_b1ba8dfe6c034281952c3945b3310b66);
+        
+    
+            marker_ae9842d1dce644179a376a4e0788a8ac.bindTooltip(
+                `<div>
+                     Центральный административный округ, Таганский район, ул. Школьная, вл.11-53
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84878ca87af34594bfcda493275e4cb5 = L.marker(
+                [55.755932505567, 37.551446114676],
+                {}
+            ).addTo(marker_cluster_c272accd505a46138a2b39b88dc11476);
+        
+    
+            var icon_90ba38d9703c41279f1c4607bef60689 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_84878ca87af34594bfcda493275e4cb5.setIcon(icon_90ba38d9703c41279f1c4607bef60689);
+        
+    
+            marker_84878ca87af34594bfcda493275e4cb5.bindTooltip(
+                `<div>
+                     Центральный административный округ, Пресненский район, ГАУК г. Москвы, ПКИО «Красная Пресня»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcee82f188f14806b6f44381e5d66831 = L.marker(
+                [55.751150179686, 37.62792905526],
+                {}
+            ).addTo(marker_cluster_c272accd505a46138a2b39b88dc11476);
+        
+    
+            var icon_049de714db2f4b62a814da24b340d3e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dcee82f188f14806b6f44381e5d66831.setIcon(icon_049de714db2f4b62a814da24b340d3e5);
+        
+    
+            marker_dcee82f188f14806b6f44381e5d66831.bindTooltip(
+                `<div>
+                     Центральный административный округ, Тверской район, ГАУК г. Москвы «Парк «Зарядье»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c733a71e6294c77ac1ff17f2ebf069a = L.marker(
+                [55.7704383732398, 37.6100258342922],
+                {}
+            ).addTo(marker_cluster_c272accd505a46138a2b39b88dc11476);
+        
+    
+            var icon_d1949536e7c945d6ac797190dddfbb63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0c733a71e6294c77ac1ff17f2ebf069a.setIcon(icon_d1949536e7c945d6ac797190dddfbb63);
+        
+    
+            marker_0c733a71e6294c77ac1ff17f2ebf069a.bindTooltip(
+                `<div>
+                     Центральный административный округ, Тверской район, ГАУК г. Москвы МГС «Эрмитаж», улица Каретный ряд, дом 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c9d91a998e448f1b0e4a5546fcf601e = L.marker(
+                [55.7546775996622, 37.552175950259],
+                {}
+            ).addTo(marker_cluster_c272accd505a46138a2b39b88dc11476);
+        
+    
+            var icon_9a0f08a3c093449fb204876b7438c5ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1c9d91a998e448f1b0e4a5546fcf601e.setIcon(icon_9a0f08a3c093449fb204876b7438c5ac);
+        
+    
+            marker_1c9d91a998e448f1b0e4a5546fcf601e.bindTooltip(
+                `<div>
+                     Центральный административный округ, Пресненский район, ГАУК г. Москвы ПКиО «Красная Пресня», улица Мантулинская, дом 5, строение 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c1f2b325189486b97115a3a7de70a20 = L.marker(
+                [55.7317403660932, 37.6036743633449],
+                {}
+            ).addTo(marker_cluster_c272accd505a46138a2b39b88dc11476);
+        
+    
+            var icon_1dac57594b0a4ab78b3451d221a114e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9c1f2b325189486b97115a3a7de70a20.setIcon(icon_1dac57594b0a4ab78b3451d221a114e4);
+        
+    
+            marker_9c1f2b325189486b97115a3a7de70a20.bindTooltip(
+                `<div>
+                     Центральный административный округ, район Якиманка, ЦПКиО им. М.Горького, улица Крымский Вал, дом 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_081581fccc464a5fb446a8c110417f27 = L.marker(
+                [55.7380104908167, 37.667811345309],
+                {}
+            ).addTo(marker_cluster_c272accd505a46138a2b39b88dc11476);
+        
+    
+            var icon_138463b3fc7c499e843f9b60810ea2c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_081581fccc464a5fb446a8c110417f27.setIcon(icon_138463b3fc7c499e843f9b60810ea2c8);
+        
+    
+            marker_081581fccc464a5fb446a8c110417f27.bindTooltip(
+                `<div>
+                     Центральный административный округ, Таганский район, ГАУК г. Москвы ПКиО «Таганский», улица Таганская, дом 40-42
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e5ade2726ba4a998627593474433310 = L.marker(
+                [55.7659842312791, 37.6600758545101],
+                {}
+            ).addTo(marker_cluster_c272accd505a46138a2b39b88dc11476);
+        
+    
+            var icon_ffb0fe7b898a4660a003056bd9f78f11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6e5ade2726ba4a998627593474433310.setIcon(icon_ffb0fe7b898a4660a003056bd9f78f11);
+        
+    
+            marker_6e5ade2726ba4a998627593474433310.bindTooltip(
+                `<div>
+                     Центральный административный округ, Басманный район, ГАУК г. Москвы «Сад КиО им. Н.Э. Баумана», улица Старая Басманная, дом 15А, строение 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cluster_9a0ad7a1376c49eca55158dbc983885c = L.markerClusterGroup(
+                {}
+            );
+            map_8c00ee75b9b04f6b8cf2b5434d477a50.addLayer(marker_cluster_9a0ad7a1376c49eca55158dbc983885c);
+        
+    
+            var marker_6493479932534de5960116bc750205ad = L.marker(
+                [55.714072953355, 37.878857220322],
+                {}
+            ).addTo(marker_cluster_9a0ad7a1376c49eca55158dbc983885c);
+        
+    
+            var icon_89164f8a0a81458da9383fec87e9d2f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6493479932534de5960116bc750205ad.setIcon(icon_89164f8a0a81458da9383fec87e9d2f2);
+        
+    
+            marker_6493479932534de5960116bc750205ad.bindTooltip(
+                `<div>
+                     Восточный административный округ, район Косино-Ухтомский, Святоозерская ул., вл. 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f62e511dc0ec43a1800ee1bb529d034d = L.marker(
+                [55.821606112614, 37.80035980307],
+                {}
+            ).addTo(marker_cluster_9a0ad7a1376c49eca55158dbc983885c);
+        
+    
+            var icon_26f6f69449f249ada314042506fb40d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f62e511dc0ec43a1800ee1bb529d034d.setIcon(icon_26f6f69449f249ada314042506fb40d0);
+        
+    
+            marker_f62e511dc0ec43a1800ee1bb529d034d.bindTooltip(
+                `<div>
+                     Восточный административный округ, район Гольяново, Сквер у Гольяновского пруда
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6cf68d4124c47cf8793b8664aff6816 = L.marker(
+                [55.743383, 37.865067],
+                {}
+            ).addTo(marker_cluster_9a0ad7a1376c49eca55158dbc983885c);
+        
+    
+            var icon_49dc9c2e86974d76bcff5a25858114fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c6cf68d4124c47cf8793b8664aff6816.setIcon(icon_49dc9c2e86974d76bcff5a25858114fb);
+        
+    
+            marker_c6cf68d4124c47cf8793b8664aff6816.bindTooltip(
+                `<div>
+                     Восточный административный округ, район Новокосино, ул. Городецкая, вл. 14 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43c46b7fd34c40ae809451b4b9d988c9 = L.marker(
+                [55.793449605045, 37.676540487781],
+                {}
+            ).addTo(marker_cluster_9a0ad7a1376c49eca55158dbc983885c);
+        
+    
+            var icon_56b74e51fa2741f9987cb8092fcfea0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_43c46b7fd34c40ae809451b4b9d988c9.setIcon(icon_56b74e51fa2741f9987cb8092fcfea0f);
+        
+    
+            marker_43c46b7fd34c40ae809451b4b9d988c9.bindTooltip(
+                `<div>
+                     Восточный административный округ, район Сокольники, ГАУК г. Москвы, ПКИО «Сокольники»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c180debd62d47c08facf3996e18a213 = L.marker(
+                [55.774031939707, 37.748948430816],
+                {}
+            ).addTo(marker_cluster_9a0ad7a1376c49eca55158dbc983885c);
+        
+    
+            var icon_890576d39115498f8567e7d1d5451521 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8c180debd62d47c08facf3996e18a213.setIcon(icon_890576d39115498f8567e7d1d5451521);
+        
+    
+            marker_8c180debd62d47c08facf3996e18a213.bindTooltip(
+                `<div>
+                     Восточный административный округ, район Измайлово, ГАУК г. Москвы, «Измайловский ПКИО»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_01c766e4d6c946f4a4d7ad0341f89eeb = L.marker(
+                [55.7943867834691, 37.6766141876578],
+                {}
+            ).addTo(marker_cluster_9a0ad7a1376c49eca55158dbc983885c);
+        
+    
+            var icon_34d474736b514fd5aad70afafdb4ebad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_01c766e4d6c946f4a4d7ad0341f89eeb.setIcon(icon_34d474736b514fd5aad70afafdb4ebad);
+        
+    
+            marker_01c766e4d6c946f4a4d7ad0341f89eeb.bindTooltip(
+                `<div>
+                     Восточный административный округ, район Сокольники, ГАУК г. Москвы «ПКиО «Сокольники», улица Сокольнический Вал, дом 1, строение 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe9b3f387a644a90a00f48c7e5b820c3 = L.marker(
+                [55.7694727488114, 37.7514855377376],
+                {}
+            ).addTo(marker_cluster_9a0ad7a1376c49eca55158dbc983885c);
+        
+    
+            var icon_56018fa8167441e2865adb7ebc469727 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fe9b3f387a644a90a00f48c7e5b820c3.setIcon(icon_56018fa8167441e2865adb7ebc469727);
+        
+    
+            marker_fe9b3f387a644a90a00f48c7e5b820c3.bindTooltip(
+                `<div>
+                     Восточный административный округ, район Измайлово, ГАУК г. Москвы «Измайловский ПКиО», аллея Большого Круга, дом 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef316247dd9244588d6a3ecb3a5c7b84 = L.marker(
+                [55.7402236518893, 37.7739247307181],
+                {}
+            ).addTo(marker_cluster_9a0ad7a1376c49eca55158dbc983885c);
+        
+    
+            var icon_bfe466b486d94e229a163e782af5ee6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ef316247dd9244588d6a3ecb3a5c7b84.setIcon(icon_bfe466b486d94e229a163e782af5ee6c);
+        
+    
+            marker_ef316247dd9244588d6a3ecb3a5c7b84.bindTooltip(
+                `<div>
+                     Восточный административный округ, район Перово, ГАУК г. Москвы ПКиО «Перовский», улица Лазо, владение 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cluster_6ccdb1b60034477d933215e91d9a9fc4 = L.markerClusterGroup(
+                {}
+            );
+            map_8c00ee75b9b04f6b8cf2b5434d477a50.addLayer(marker_cluster_6ccdb1b60034477d933215e91d9a9fc4);
+        
+    
+            var marker_5cd2f622e4aa472cb474a2cd50503564 = L.marker(
+                [55.657763440344, 37.744599863488],
+                {}
+            ).addTo(marker_cluster_6ccdb1b60034477d933215e91d9a9fc4);
+        
+    
+            var icon_99e2020eb199401a895a9c11b9d21ffd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5cd2f622e4aa472cb474a2cd50503564.setIcon(icon_99e2020eb199401a895a9c11b9d21ffd);
+        
+    
+            marker_5cd2f622e4aa472cb474a2cd50503564.bindTooltip(
+                `<div>
+                     Юго-Восточный административный округ, район Марьино, ул. Перерва, вл.52
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70c59da1d2d34355a96efe64c25e43f5 = L.marker(
+                [55.706271740932, 37.76617238427],
+                {}
+            ).addTo(marker_cluster_6ccdb1b60034477d933215e91d9a9fc4);
+        
+    
+            var icon_b8266193ad3f483cb2f51649a5a6787b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_70c59da1d2d34355a96efe64c25e43f5.setIcon(icon_b8266193ad3f483cb2f51649a5a6787b);
+        
+    
+            marker_70c59da1d2d34355a96efe64c25e43f5.bindTooltip(
+                `<div>
+                     Юго-Восточный административный округ, район Кузьминки, Площадь Славы
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_823b7c53a01941619fb95fb1eff0e76f = L.marker(
+                [55.695564601078, 37.76827586589],
+                {}
+            ).addTo(marker_cluster_6ccdb1b60034477d933215e91d9a9fc4);
+        
+    
+            var icon_081707e6e58a428dbf70a4f8d25f1633 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_823b7c53a01941619fb95fb1eff0e76f.setIcon(icon_081707e6e58a428dbf70a4f8d25f1633);
+        
+    
+            marker_823b7c53a01941619fb95fb1eff0e76f.bindTooltip(
+                `<div>
+                     Юго-Восточный административный округ, район Кузьминки, ГАУК г. Москвы, ПКИО «Кузьминки»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0736c77739914f36b452a22e375f727d = L.marker(
+                [55.6949571117816, 37.7672461979091],
+                {}
+            ).addTo(marker_cluster_6ccdb1b60034477d933215e91d9a9fc4);
+        
+    
+            var icon_82cd479286ff4a8d8120ef48b039e41a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0736c77739914f36b452a22e375f727d.setIcon(icon_82cd479286ff4a8d8120ef48b039e41a);
+        
+    
+            marker_0736c77739914f36b452a22e375f727d.bindTooltip(
+                `<div>
+                     Юго-Восточный административный округ, район Кузьминки, ГАУК г. Москвы ГМЗ «Кузьминки-Люблино», Парк культуры и отдыха «Кузьминки» (основная территория), Кузьминский парк, дом 1, строение 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e7b39430f3d4002bf33ea3177fbb3ce = L.marker(
+                [55.663623, 37.743049],
+                {}
+            ).addTo(marker_cluster_6ccdb1b60034477d933215e91d9a9fc4);
+        
+    
+            var icon_5e79ee7bd57a4c7488e0401fb1079911 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0e7b39430f3d4002bf33ea3177fbb3ce.setIcon(icon_5e79ee7bd57a4c7488e0401fb1079911);
+        
+    
+            marker_0e7b39430f3d4002bf33ea3177fbb3ce.bindTooltip(
+                `<div>
+                     Юго-Восточный административный округ, район Люблино, ГБУК г. Москвы «КЦ им. И.М. Астахова», улица Люблинская, дом 149
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c674fedb57041f5ada01df41b53e648 = L.marker(
+                [55.638126, 37.798706],
+                {}
+            ).addTo(marker_cluster_6ccdb1b60034477d933215e91d9a9fc4);
+        
+    
+            var icon_ba55aa610afd40f6a2f892eef4a33046 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0c674fedb57041f5ada01df41b53e648.setIcon(icon_ba55aa610afd40f6a2f892eef4a33046);
+        
+    
+            marker_0c674fedb57041f5ada01df41b53e648.bindTooltip(
+                `<div>
+                     Юго-Восточный административный округ, район Капотня, ГБУК г. Москвы «Дворец культуры «Капотня», 2-й квартал Капотни, дом 20А
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cluster_59c427765c704d1cb6407f00a5b88ff3 = L.markerClusterGroup(
+                {}
+            );
+            map_8c00ee75b9b04f6b8cf2b5434d477a50.addLayer(marker_cluster_59c427765c704d1cb6407f00a5b88ff3);
+        
+    
+            var marker_ad6f0a8bf8ad489e9a5e13c57679d255 = L.marker(
+                [55.704051290824, 37.478834443542],
+                {}
+            ).addTo(marker_cluster_59c427765c704d1cb6407f00a5b88ff3);
+        
+    
+            var icon_d35e1ccba3d5427988ebfd03a7536325 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ad6f0a8bf8ad489e9a5e13c57679d255.setIcon(icon_d35e1ccba3d5427988ebfd03a7536325);
+        
+    
+            marker_ad6f0a8bf8ad489e9a5e13c57679d255.bindTooltip(
+                `<div>
+                     Западный административный округ, район Очаково-Матвеевское, ул. Матвеевская, вл.2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fa58eb225b5489fa553f12bb19c5ba2 = L.marker(
+                [55.750642076784, 37.491339373278],
+                {}
+            ).addTo(marker_cluster_59c427765c704d1cb6407f00a5b88ff3);
+        
+    
+            var icon_bf7c1927be5c40089a6fc643a60dc6d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1fa58eb225b5489fa553f12bb19c5ba2.setIcon(icon_bf7c1927be5c40089a6fc643a60dc6d4);
+        
+    
+            marker_1fa58eb225b5489fa553f12bb19c5ba2.bindTooltip(
+                `<div>
+                     Западный административный округ, район Филёвский Парк, ГАУК г. Москвы, ПКИО «Фили»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86f5b8828dae48399b21017689c159e4 = L.marker(
+                [55.7488957762295, 37.4855765327811],
+                {}
+            ).addTo(marker_cluster_59c427765c704d1cb6407f00a5b88ff3);
+        
+    
+            var icon_6408924c743a4cf6b733be41f8822c8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_86f5b8828dae48399b21017689c159e4.setIcon(icon_6408924c743a4cf6b733be41f8822c8c);
+        
+    
+            marker_86f5b8828dae48399b21017689c159e4.bindTooltip(
+                `<div>
+                     Западный административный округ, район Филёвский Парк, ГАУК г. Москвы ПКиО «Фили», улица Большая Филёвская, дом 22
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cbec88c618db486884fbebdea47fd9a6 = L.marker(
+                [55.6845871517337, 37.4993627518415],
+                {}
+            ).addTo(marker_cluster_59c427765c704d1cb6407f00a5b88ff3);
+        
+    
+            var icon_725df15fa18947828cd42b94e1dba058 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cbec88c618db486884fbebdea47fd9a6.setIcon(icon_725df15fa18947828cd42b94e1dba058);
+        
+    
+            marker_cbec88c618db486884fbebdea47fd9a6.bindTooltip(
+                `<div>
+                     Западный административный округ, район Проспект Вернадского, ГАУК г.Москвы ПКиО «Фили», Парк «50-летия Октября», улица Удальцова, дом 22А
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14c06f15a7d74992a4929c6cfd82cee8 = L.marker(
+                [55.790282, 37.353672],
+                {}
+            ).addTo(marker_cluster_59c427765c704d1cb6407f00a5b88ff3);
+        
+    
+            var icon_61b1c78fe75a49c98f946777eca33439 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_14c06f15a7d74992a4929c6cfd82cee8.setIcon(icon_61b1c78fe75a49c98f946777eca33439);
+        
+    
+            marker_14c06f15a7d74992a4929c6cfd82cee8.bindTooltip(
+                `<div>
+                     Западный административный округ, район Кунцево, ГБУК г. Москвы «КЦ «Рублево», улица Василия Ботылева, дом 43
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cluster_813b2074c6f74a3ebc20172df69d9e14 = L.markerClusterGroup(
+                {}
+            );
+            map_8c00ee75b9b04f6b8cf2b5434d477a50.addLayer(marker_cluster_813b2074c6f74a3ebc20172df69d9e14);
+        
+    
+            var marker_c16a5895260843b2915c148c5c115f83 = L.marker(
+                [55.975903139297, 37.155141234558],
+                {}
+            ).addTo(marker_cluster_813b2074c6f74a3ebc20172df69d9e14);
+        
+    
+            var icon_837d28845955489fbfaed2319716222c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c16a5895260843b2915c148c5c115f83.setIcon(icon_837d28845955489fbfaed2319716222c);
+        
+    
+            marker_c16a5895260843b2915c148c5c115f83.bindTooltip(
+                `<div>
+                     Зеленоградский административный округ, район Крюково, г. Зеленоград,16 мкр., бульварная зона
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93d3ef71bed441e292fc4b1c9fcf5c03 = L.marker(
+                [56.001848, 37.209689],
+                {}
+            ).addTo(marker_cluster_813b2074c6f74a3ebc20172df69d9e14);
+        
+    
+            var icon_7411b5ea37604f28a7c36eab0819984c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_93d3ef71bed441e292fc4b1c9fcf5c03.setIcon(icon_7411b5ea37604f28a7c36eab0819984c);
+        
+    
+            marker_93d3ef71bed441e292fc4b1c9fcf5c03.bindTooltip(
+                `<div>
+                     Зеленоградский административный округ, район Матушкино, Зеленоград, Площадь Юности, вл. 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9c6740f69ad4cfe9c6d256038479757 = L.marker(
+                [55.989452, 37.220376],
+                {}
+            ).addTo(marker_cluster_813b2074c6f74a3ebc20172df69d9e14);
+        
+    
+            var icon_a1947b5a95fc4cd09c15916fad076402 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f9c6740f69ad4cfe9c6d256038479757.setIcon(icon_a1947b5a95fc4cd09c15916fad076402);
+        
+    
+            marker_f9c6740f69ad4cfe9c6d256038479757.bindTooltip(
+                `<div>
+                     Зеленоградский административный округ, район Савёлки, ГАУК г. Москвы «КЦ «Зеленоград», г. Зеленоград, Центральная площадь, дом 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cluster_f656d2627dc24062b9ac2f5a06021b6b = L.markerClusterGroup(
+                {}
+            );
+            map_8c00ee75b9b04f6b8cf2b5434d477a50.addLayer(marker_cluster_f656d2627dc24062b9ac2f5a06021b6b);
+        
+    
+            var marker_63b7983c84794f13841affa60c19218e = L.marker(
+                [55.811432047233, 37.567442518921],
+                {}
+            ).addTo(marker_cluster_f656d2627dc24062b9ac2f5a06021b6b);
+        
+    
+            var icon_f65eec6ea28b45d8ae994b014709e69c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_63b7983c84794f13841affa60c19218e.setIcon(icon_f65eec6ea28b45d8ae994b014709e69c);
+        
+    
+            marker_63b7983c84794f13841affa60c19218e.bindTooltip(
+                `<div>
+                     Северный административный округ, Тимирязевский район, ул. Тимирязевская, вл.17 (у театра «Золотое кольцо»)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d4b772e5cc3499a82fc753f319b91a4 = L.marker(
+                [55.7860600587967, 37.5305358879268],
+                {}
+            ).addTo(marker_cluster_f656d2627dc24062b9ac2f5a06021b6b);
+        
+    
+            var icon_eb2c8a87ae24477cb86307ad917df35b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4d4b772e5cc3499a82fc753f319b91a4.setIcon(icon_eb2c8a87ae24477cb86307ad917df35b);
+        
+    
+            marker_4d4b772e5cc3499a82fc753f319b91a4.bindTooltip(
+                `<div>
+                     Северный административный округ, Хорошёвский район, ГАУК г. Москвы «ПКиО «Ходынское поле», Ходынский бульвар, дом 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_697799196d0144f39ba21c695f59bf77 = L.marker(
+                [55.876291, 37.524472],
+                {}
+            ).addTo(marker_cluster_f656d2627dc24062b9ac2f5a06021b6b);
+        
+    
+            var icon_1e90698aecdb4240bf970bf269f9616a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_697799196d0144f39ba21c695f59bf77.setIcon(icon_1e90698aecdb4240bf970bf269f9616a);
+        
+    
+            marker_697799196d0144f39ba21c695f59bf77.bindTooltip(
+                `<div>
+                     Северный административный округ, Дмитровский район, ГАУК г. Москвы ПКиО «Лианозовский», Парк «Ангарские пруды», пересечение Ангарской улицы и Коровинского шоссе
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_433fd24b26f04d7688e1b5b001103d38 = L.marker(
+                [55.8758215631091, 37.4918277142569],
+                {}
+            ).addTo(marker_cluster_f656d2627dc24062b9ac2f5a06021b6b);
+        
+    
+            var icon_c0e5b43265c2460eb34234a3c4b7577c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_433fd24b26f04d7688e1b5b001103d38.setIcon(icon_c0e5b43265c2460eb34234a3c4b7577c);
+        
+    
+            marker_433fd24b26f04d7688e1b5b001103d38.bindTooltip(
+                `<div>
+                     Северный административный округ, район Ховрино, ГБУК г. Москвы «Клуб «Огонек», улица Зеленоградская, дом 33А
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cluster_b0821eeb8ce14c3cac30bc4f7836d24b = L.markerClusterGroup(
+                {}
+            );
+            map_8c00ee75b9b04f6b8cf2b5434d477a50.addLayer(marker_cluster_b0821eeb8ce14c3cac30bc4f7836d24b);
+        
+    
+            var marker_431cea9646d349a9b889833466773ba7 = L.marker(
+                [55.860759, 37.599544],
+                {}
+            ).addTo(marker_cluster_b0821eeb8ce14c3cac30bc4f7836d24b);
+        
+    
+            var icon_da82044872bd41dcac016932cc204a92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_431cea9646d349a9b889833466773ba7.setIcon(icon_da82044872bd41dcac016932cc204a92);
+        
+    
+            marker_431cea9646d349a9b889833466773ba7.bindTooltip(
+                `<div>
+                     Северо-Восточный административный округ, район Отрадное, ул. Хачатуряна, вл.13 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_40462c90d93f482c98f8d767a37fd3ad = L.marker(
+                [55.86622398678, 37.680931227702],
+                {}
+            ).addTo(marker_cluster_b0821eeb8ce14c3cac30bc4f7836d24b);
+        
+    
+            var icon_bc45e470c71f4d219e7682f95e5848d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_40462c90d93f482c98f8d767a37fd3ad.setIcon(icon_bc45e470c71f4d219e7682f95e5848d0);
+        
+    
+            marker_40462c90d93f482c98f8d767a37fd3ad.bindTooltip(
+                `<div>
+                     Северо-Восточный административный округ, Лосиноостровский район, ГАУК г. Москвы, ПКИО «Бабушкинский»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_420ca10be72e45de8955fccf7ff19fc3 = L.marker(
+                [55.900184621859, 37.570730578718],
+                {}
+            ).addTo(marker_cluster_b0821eeb8ce14c3cac30bc4f7836d24b);
+        
+    
+            var icon_4dd537b8bd574b3780b3dbf8cee550fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_420ca10be72e45de8955fccf7ff19fc3.setIcon(icon_4dd537b8bd574b3780b3dbf8cee550fe);
+        
+    
+            marker_420ca10be72e45de8955fccf7ff19fc3.bindTooltip(
+                `<div>
+                     Северо-Восточный административный округ, район Лианозово, ГАУК г. Москвы, ПКИО «Лианозовский»
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6d7c8b1d82147878804d0f9a626b886 = L.marker(
+                [55.876764068402, 37.65379421927],
+                {}
+            ).addTo(marker_cluster_b0821eeb8ce14c3cac30bc4f7836d24b);
+        
+    
+            var icon_cda51102653b4949b848a92d5a0ec68f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b6d7c8b1d82147878804d0f9a626b886.setIcon(icon_cda51102653b4949b848a92d5a0ec68f);
+        
+    
+            marker_b6d7c8b1d82147878804d0f9a626b886.bindTooltip(
+                `<div>
+                     Северо-Восточный административный округ, район Южное Медведково, Парк "Бабушкинский" (сквер по Олонецкому проезду)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49b62bdbd4c8476d988d25b7eb45f401 = L.marker(
+                [55.8672172030717, 37.6825205795467],
+                {}
+            ).addTo(marker_cluster_b0821eeb8ce14c3cac30bc4f7836d24b);
+        
+    
+            var icon_d2c8686a0f784d5680a631d98aefb84e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_49b62bdbd4c8476d988d25b7eb45f401.setIcon(icon_d2c8686a0f784d5680a631d98aefb84e);
+        
+    
+            marker_49b62bdbd4c8476d988d25b7eb45f401.bindTooltip(
+                `<div>
+                     Северо-Восточный административный округ, Лосиноостровский район, ГАУК г. Москвы «ПКиО «Бабушкинский», улица Менжинского, дом 6, строение 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6255887cf2d4a28bd893a16aeeac384 = L.marker(
+                [55.9004544469071, 37.5706991180777],
+                {}
+            ).addTo(marker_cluster_b0821eeb8ce14c3cac30bc4f7836d24b);
+        
+    
+            var icon_79c1aaaed63644399efa14f6921ab997 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b6255887cf2d4a28bd893a16aeeac384.setIcon(icon_79c1aaaed63644399efa14f6921ab997);
+        
+    
+            marker_b6255887cf2d4a28bd893a16aeeac384.bindTooltip(
+                `<div>
+                     Северо-Восточный административный округ, район Лианозово, ГАУК г. Москвы ПКиО «Лианозовский» (основная территория), Угличская улица, владение 13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2d3a842f9b84392ab81c371bc1159a0 = L.marker(
+                [55.8137220401572, 37.588557433337],
+                {}
+            ).addTo(marker_cluster_b0821eeb8ce14c3cac30bc4f7836d24b);
+        
+    
+            var icon_f3355de492c5495293697caca2542c23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e2d3a842f9b84392ab81c371bc1159a0.setIcon(icon_f3355de492c5495293697caca2542c23);
+        
+    
+            marker_e2d3a842f9b84392ab81c371bc1159a0.bindTooltip(
+                `<div>
+                     Северо-Восточный административный округ, Бутырский район, ГАУК г. Москвы ПКиО «Лианозовский», Гончаровский парк, улица Руставели, владение 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cluster_14b5aba645814d8688dc3f89244dab73 = L.markerClusterGroup(
+                {}
+            );
+            map_8c00ee75b9b04f6b8cf2b5434d477a50.addLayer(marker_cluster_14b5aba645814d8688dc3f89244dab73);
+        
+    
+            var marker_54ca111209d04b82a4c8085a30995dba = L.marker(
+                [55.846769505833, 37.359548273401],
+                {}
+            ).addTo(marker_cluster_14b5aba645814d8688dc3f89244dab73);
+        
+    
+            var icon_15f9ba1dd1b74a4cb999df8ac4763b65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_54ca111209d04b82a4c8085a30995dba.setIcon(icon_15f9ba1dd1b74a4cb999df8ac4763b65);
+        
+    
+            marker_54ca111209d04b82a4c8085a30995dba.bindTooltip(
+                `<div>
+                     Северо-Западный административный округ, район Митино, ул. Митинская, 31 (напротив) 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_604f09b7effb42b980e85196bd529be2 = L.marker(
+                [55.8521536265954, 37.4553745239973],
+                {}
+            ).addTo(marker_cluster_14b5aba645814d8688dc3f89244dab73);
+        
+    
+            var icon_cbdb9f356b0744438c8a06604873dd43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_604f09b7effb42b980e85196bd529be2.setIcon(icon_cbdb9f356b0744438c8a06604873dd43);
+        
+    
+            marker_604f09b7effb42b980e85196bd529be2.bindTooltip(
+                `<div>
+                     Северо-Западный административный округ, район Северное Тушино, ГАУК г. Москвы «МПК «Северное Тушино», улица Свободы, владение 50-70
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cluster_d2829d2af0394169af3f589f5350700d = L.markerClusterGroup(
+                {}
+            );
+            map_8c00ee75b9b04f6b8cf2b5434d477a50.addLayer(marker_cluster_d2829d2af0394169af3f589f5350700d);
+        
+    
+            var marker_9635332f1fa04708b71457bb55fb05c7 = L.marker(
+                [55.613657232438, 37.743463746679],
+                {}
+            ).addTo(marker_cluster_d2829d2af0394169af3f589f5350700d);
+        
+    
+            var icon_dfd9684d165c445a9078ff00ccbfc888 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9635332f1fa04708b71457bb55fb05c7.setIcon(icon_dfd9684d165c445a9078ff00ccbfc888);
+        
+    
+            marker_9635332f1fa04708b71457bb55fb05c7.bindTooltip(
+                `<div>
+                     Южный административный округ, район Зябликово, Ореховый б-р, вл. 24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf238ce6e39d44e480b3e9d17daec7ca = L.marker(
+                [55.616264127888, 37.6822630874813],
+                {}
+            ).addTo(marker_cluster_d2829d2af0394169af3f589f5350700d);
+        
+    
+            var icon_1b7c6dfac0c541d4a91502158d4aae2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bf238ce6e39d44e480b3e9d17daec7ca.setIcon(icon_1b7c6dfac0c541d4a91502158d4aae2e);
+        
+    
+            marker_bf238ce6e39d44e480b3e9d17daec7ca.bindTooltip(
+                `<div>
+                     Южный административный округ, район Орехово-Борисово Северное, ГБУК г. Москвы «ГМЗ «Царицыно», улица Дольская, дом 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a1440203d1344a3a4999f74352b5647 = L.marker(
+                [55.624251, 37.725795],
+                {}
+            ).addTo(marker_cluster_d2829d2af0394169af3f589f5350700d);
+        
+    
+            var icon_b96e357f4e764592ac5bfa832392faba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4a1440203d1344a3a4999f74352b5647.setIcon(icon_b96e357f4e764592ac5bfa832392faba);
+        
+    
+            marker_4a1440203d1344a3a4999f74352b5647.bindTooltip(
+                `<div>
+                     Южный административный округ, район Орехово-Борисово Северное, ГБУК г. Москвы «ТКС «Орехово», Борисовский проезд, дом 22, корпус 1, строение 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6527f054edc486e88997bd73ff89109 = L.marker(
+                [55.591012, 37.606972],
+                {}
+            ).addTo(marker_cluster_d2829d2af0394169af3f589f5350700d);
+        
+    
+            var icon_16eeb50355b348e792a147928f6f0965 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a6527f054edc486e88997bd73ff89109.setIcon(icon_16eeb50355b348e792a147928f6f0965);
+        
+    
+            marker_a6527f054edc486e88997bd73ff89109.bindTooltip(
+                `<div>
+                     Южный административный округ, район Чертаново Южное, ГБУК г. Москвы «ДК «Маяк», улица Газопровод, дом 9А
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cluster_63881435e38a4fb6a153f400f74c7117 = L.markerClusterGroup(
+                {}
+            );
+            map_8c00ee75b9b04f6b8cf2b5434d477a50.addLayer(marker_cluster_63881435e38a4fb6a153f400f74c7117);
+        
+    
+            var marker_c6942fd53d794f0fac402bc5febe7dc0 = L.marker(
+                [55.669546, 37.554996],
+                {}
+            ).addTo(marker_cluster_63881435e38a4fb6a153f400f74c7117);
+        
+    
+            var icon_946987de9e1f4a89804ee3b60e7030cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c6942fd53d794f0fac402bc5febe7dc0.setIcon(icon_946987de9e1f4a89804ee3b60e7030cd);
+        
+    
+            marker_c6942fd53d794f0fac402bc5febe7dc0.bindTooltip(
+                `<div>
+                     Юго-Западный административный округ, район Черёмушки, ул. Профсоюзная, вл. 41
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6def00b4bcab44bd925421fc27dc8b60 = L.marker(
+                [55.567002219666, 37.575187669464],
+                {}
+            ).addTo(marker_cluster_63881435e38a4fb6a153f400f74c7117);
+        
+    
+            var icon_efe532a4faeb4f41b16d79c233a2813e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6def00b4bcab44bd925421fc27dc8b60.setIcon(icon_efe532a4faeb4f41b16d79c233a2813e);
+        
+    
+            marker_6def00b4bcab44bd925421fc27dc8b60.bindTooltip(
+                `<div>
+                     Юго-Западный административный округ, район Северное Бутово, Бульвар Дмитрия Донского, вл.11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cbcc4a319225442db40daa4ba0bd1c7c = L.marker(
+                [55.6671684314315, 37.5319735519588],
+                {}
+            ).addTo(marker_cluster_63881435e38a4fb6a153f400f74c7117);
+        
+    
+            var icon_ddf2cdfdb16e4fa0b511cf25c7458154 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cbcc4a319225442db40daa4ba0bd1c7c.setIcon(icon_ddf2cdfdb16e4fa0b511cf25c7458154);
+        
+    
+            marker_cbcc4a319225442db40daa4ba0bd1c7c.bindTooltip(
+                `<div>
+                     Юго-Западный административный округ, Обручевский район, ГАУК г. Москвы «Усадьба Воронцово», Воронцовский парк, дом 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b05ebd6f46a7464b814f87bac73f58d7 = L.marker(
+                [55.6136587034802, 37.5387970916927],
+                {}
+            ).addTo(marker_cluster_63881435e38a4fb6a153f400f74c7117);
+        
+    
+            var icon_b39826f5715f41639ee34c34ea40723b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b05ebd6f46a7464b814f87bac73f58d7.setIcon(icon_b39826f5715f41639ee34c34ea40723b);
+        
+    
+            marker_b05ebd6f46a7464b814f87bac73f58d7.bindTooltip(
+                `<div>
+                     Юго-Западный административный округ, район Ясенево, ГБУК г. Москвы «КЦ «Вдохновение», Литовский бульвар, дом 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ba643aabe1c43f5a824b8123fc737d2 = L.marker(
+                [55.656706, 37.542319],
+                {}
+            ).addTo(marker_cluster_63881435e38a4fb6a153f400f74c7117);
+        
+    
+            var icon_577772efb0554250937221d56e32075a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3ba643aabe1c43f5a824b8123fc737d2.setIcon(icon_577772efb0554250937221d56e32075a);
+        
+    
+            marker_3ba643aabe1c43f5a824b8123fc737d2.bindTooltip(
+                `<div>
+                     Юго-Западный административный округ, район Черёмушки, ГБУК г. Москвы «ЦКИ «Меридиан», улица Профсоюзная, дом 61
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cluster_278d89aa950b4b28a6a0cc293112c5b6 = L.markerClusterGroup(
+                {}
+            );
+            map_8c00ee75b9b04f6b8cf2b5434d477a50.addLayer(marker_cluster_278d89aa950b4b28a6a0cc293112c5b6);
+        
+    
+            var marker_951705a7218342349b17809a88ffe3eb = L.marker(
+                [55.468742835265, 37.296830440475],
+                {}
+            ).addTo(marker_cluster_278d89aa950b4b28a6a0cc293112c5b6);
+        
+    
+            var icon_fe9a6079b3334734a1bae595e231b589 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_951705a7218342349b17809a88ffe3eb.setIcon(icon_fe9a6079b3334734a1bae595e231b589);
+        
+    
+            marker_951705a7218342349b17809a88ffe3eb.bindTooltip(
+                `<div>
+                     Троицкий административный округ, поселение Троицк, Троицк, Сиреневый бульвар. вл.1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cluster_806e2b8ae5164916a0bed1c1b10c49d4 = L.markerClusterGroup(
+                {}
+            );
+            map_8c00ee75b9b04f6b8cf2b5434d477a50.addLayer(marker_cluster_806e2b8ae5164916a0bed1c1b10c49d4);
+        
+    
+            var marker_9384ccd58cba465b9a9a9c7af5a92304 = L.marker(
+                [55.473354, 37.541734],
+                {}
+            ).addTo(marker_cluster_806e2b8ae5164916a0bed1c1b10c49d4);
+        
+    
+            var icon_9b902cd9c3434a6ba3f47c5280f6401a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9384ccd58cba465b9a9a9c7af5a92304.setIcon(icon_9b902cd9c3434a6ba3f47c5280f6401a);
+        
+    
+            marker_9384ccd58cba465b9a9a9c7af5a92304.bindTooltip(
+                `<div>
+                     Новомосковский административный округ, поселение Рязановское, ГБУК г. Москвы «ДК «Пересвет», поселение Рязановское, поселок Знамя Октября дом 31, строение 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_968311f68d4a4dca8d9801afebf1c4f6 = L.marker(
+                [55.496046919705, 37.5013534538448],
+                {}
+            ).addTo(marker_cluster_806e2b8ae5164916a0bed1c1b10c49d4);
+        
+    
+            var icon_6539e80e8e0a4812859ea35d9ced3af6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_968311f68d4a4dca8d9801afebf1c4f6.setIcon(icon_6539e80e8e0a4812859ea35d9ced3af6);
+        
+    
+            marker_968311f68d4a4dca8d9801afebf1c4f6.bindTooltip(
+                `<div>
+                     Новомосковский административный округ, поселение Рязановское, ГБУК г. Москвы «ДК «Десна», поселение Рязановское, село Остафьево
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
