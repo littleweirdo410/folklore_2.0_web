@@ -7,7 +7,7 @@
 
 Сайт демонстрировался на научных конференциях и непосредственно на защите дипломной работы вместо мультимедийной презентации.
 
-По итогам исследований в [11-м выпуске онлайн-журнала Совета молодых учёных ФИЯР МГУ "Moscow University Young Researchers Journal: Languages, Cultures And Area Studies"] была опубликована статья:
+По итогам исследований в [11-м выпуске онлайн-журнала Совета молодых учёных ФИЯР МГУ "Moscow University Young Researchers Journal: Languages, Cultures And Area Studies"](https://disk.yandex.ru/d/7iA1S4atDYyyAA) была опубликована статья:
 
 > <div style="color:#B5E853">Гусева М.А. Русская и татарская музыкальная фольклорная традиция в современной Москве: актуализация и репрезентация // Moscow University Young Researchers Journal: Languages, Cultures And Area Studies. - 2022. - №11</div>
 
