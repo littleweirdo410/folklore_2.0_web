@@ -1,7 +1,9 @@
 # Фольклор 2.0. Веб-версия ([moscowfolklore.ru](https://moscowfolklore.ru/))
 ![Static Badge](https://img.shields.io/badge/main_language-Python?logo=python&logoSize=auto&labelColor=yellow&color=gray) ![GitHub language count](https://img.shields.io/github/languages/count/littleweirdo410/folklore_2.0_web) ![GitHub License](https://img.shields.io/github/license/littleweirdo410/folklore_2.0_web) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fmoscowfolklore.ru%2F)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/littleweirdo410/folklore_2.0_web)
 
-Сайт с длинным названием [«Русская и татарская музыкальная фольклорная традиция в современной Москве: актуализация и репрезентация»](https://disk.yandex.ru/i/x4irhSLIWO_I8Q) был создан в 2022 году в целях демонстрации результатов одноимённой бакалаврской выпускной квалификационной работы и визуализации данных о музыкальных фольклорных мероприятиях в рамках городских фестивалей "Московская Масленица" и "Московский Сабантуй" с 2018 по 2020 гг. включительно. В [раздел 2 "Московская Масленица"](https://moscowfolklore.ru/site.wsgi/moscow_maslenitsa/) была перенесена часть материалов десктопного приложения «Фольклор 2.0», см.<a href="#folk">выше</a>.
+Сайт с длинным названием [«Русская и татарская музыкальная фольклорная традиция в современной Москве: актуализация и репрезентация»](https://disk.yandex.ru/i/x4irhSLIWO_I8Q) был создан в 2022 году в целях демонстрации результатов одноимённой бакалаврской выпускной квалификационной работы и визуализации данных о музыкальных фольклорных мероприятиях в рамках городских фестивалей "Московская Масленица" и "Московский Сабантуй" с 2018 по 2020 гг. включительно. В [раздел 2 "Московская Масленица"](https://moscowfolklore.ru/site.wsgi/moscow_maslenitsa/) была перенесена часть материалов десктопного приложения «Фольклор 2.0», см. соответствующий репозиторий:
+
+![Рисунок 1](https://milenchik.ru/site.wsgi/static/Рисунок1.png)
 
 Сайт демонстрировался на научных конференциях и непосредственно на защите дипломной работы вместо мультимедийной презентации.
 
